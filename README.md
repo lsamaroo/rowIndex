@@ -21,7 +21,7 @@ E.g. <th class="row-index"></th> and <td class="row-index"></td>.  This widget w
 
 <h3>Example:</h3>
 <h4>HTML</h4>
-...
+```
 <table>
 	<thead>
 		<tr>
@@ -40,10 +40,10 @@ E.g. <th class="row-index"></th> and <td class="row-index"></td>.  This widget w
 		</tr>			
 	</tbody>
 </table>
-...
+```
 
 <h4>Javascript</h4>
-...
+```
 $(function() {
   // call the tablesorter plugin
   $("table").tablesorter({
@@ -51,17 +51,16 @@ $(function() {
     widgets: ["rowIndex"]
   });
 });
-...
-
+```
 
 <h4>CSS</h4>
-...
+```
 <style>
 	table .row-index{
 		width: 10px;
 	}
 </style>
-...
+```
 
 
 ![alt tag](rowIndexScreenshot.png)
