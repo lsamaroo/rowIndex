@@ -16,9 +16,9 @@ For example, if you are already using the zebra striping widget then it would lo
 widgets : ['zebra, rowIndex']
 <br/>
 Note: If you are using the filter widget you may want to add your own empty header and cell with a class of "row-index" in the table mark up so that the filter widget takes into account the extra column.
-E.g. 
+
 ```
-<th class="row-index"></th> and <td class="row-index"></td>
+E.g.  <th class="row-index"></th> and <td class="row-index"></td>
 ```  
 This widget will see that you have a placeholder header and cell and use it.
 
